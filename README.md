@@ -13,9 +13,9 @@ You need **zero** prior Foundry experience. Every prompt below is copy-paste. If
 1. Your team has its own **Azure AI Foundry project**. Find your project URL and login on your team card.
 2. Open the project in [https://ai.azure.com](https://ai.azure.com) and sign in.
 3. Your **gpt-5-mini** or **gpt-5.4-mini** model is **already deployed** and your project is **already connected to Application Insights** for tracing — no setup needed.
-4. Download these two files (links from the facilitator):
-   - `lending-policy.md` — you'll add this as a knowledge tool later.
-   - `applicants.md` — your test customers.
+4. Download these two files:
+   - [lending-policy.md](lending-policy.md) — you'll add this as a knowledge tool later.
+   - [applicants.md](applicants.md) — your test customers.
 
 > 🇿🇦 Everything is in South African Rand (R) and based on real-world SA context: load-shedding, SARS solar incentives, and National Credit Act affordability checks.
 
