@@ -12,7 +12,7 @@ You need **zero** prior Foundry experience. Every prompt below is copy-paste. If
 
 1. Your team has its own **Azure AI Foundry project**. Find your project URL and login on your team card.
 2. Open the project in [https://ai.azure.com](https://ai.azure.com) and sign in.
-3. Your **gpt-5-mini** model is **already deployed** and your project is **already connected to Application Insights** for tracing — no setup needed.
+3. Your **gpt-5-mini** or **gpt-5.4-mini** model is **already deployed** and your project is **already connected to Application Insights** for tracing — no setup needed.
 4. Download these two files (links from the facilitator):
    - `lending-policy.md` — you'll add this as a knowledge tool later.
    - `applicants.md` — your test customers.
@@ -27,7 +27,7 @@ You need **zero** prior Foundry experience. Every prompt below is copy-paste. If
 
 1. In your Foundry project, create a new agent. Click **Build** in the top right, then click **New agent** and select **Build and agent**.
 2. Name the agent **WattWorth** and create it.
-3. Your model **gpt-5-mini** is already deployed for you — make sure it's selected as the agent's model.
+3. Your model **gpt-5-mini** or **gpt-5.4-mini** is already deployed for you — make sure it's selected as the agent's model.
 4. On the right, at the bottom of the screen, type the following in the chat box and send:
 
    ```
@@ -146,7 +146,7 @@ Pick any — they make WattWorth stronger:
 
 | Symptom | Fix |
 |---------|-----|
-| No model when creating the agent | gpt-5-mini is pre-deployed — pick it from the model list. If it's missing, deploy **gpt-5-mini** under **Models + endpoints**. |
+| No model when creating the agent | gpt-5-mini or gpt-5.4-mini is pre-deployed — pick it from the model list. If it's missing, deploy **gpt-5-mini** under **Models + endpoints**. |
 | Reply isn't JSON | Add *"Output valid JSON only, no markdown fences."* to the agent's Instructions. |
 | Knowledge seems ignored | Confirm `lending-policy.md` finished **indexing** and is attached to the **agent**, then start a **fresh chat** and re-send the applicant. |
 | Verdicts disagree with the policy | Re-read the policy's thresholds; make sure the knowledge file actually indexed. |
