@@ -80,7 +80,7 @@ You need **zero** prior Foundry experience. Every prompt below is copy-paste. If
 
 **Goal: attach your real lending policy as a knowledge tool so WattWorth stops guessing.**
 
-1. In the agent setup, select **Tools** → **Upload files**.
+1. In the agent setup, below the instructions, select **Tools** → **Upload files**.
 2. **Upload** `lending-policy.md` and let the agent finish indexing it. Accept default settings.
 3. Add this line to the **end** of the agent's **Instructions** so it leans on the policy:
 
