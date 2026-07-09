@@ -92,7 +92,7 @@ You need **zero** prior Foundry experience. Every prompt below is copy-paste. If
 
 4. **Save** the agent.
 5. Start a fresh chat and re-run **A002** and **A005**. Compare to your Spark Two answers — the verdicts and flags should now match the policy's exact thresholds and wording.
-6. Run the **full pack A001–A007** and record each verdict for the showcase.
+6. Run the **full pack A001–A007** and note the difference in verdicts compared to the previous Spark Three run.
 
 ✅ **Checkpoint:** WattWorth cites real policy thresholds and uses the policy's exact flag names. **You're fully charged.** ⚡
 
